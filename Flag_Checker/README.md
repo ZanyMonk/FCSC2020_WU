@@ -14,7 +14,7 @@ Let's have a look at the client-side sources.
 
 [A WebAssembly program](index.wasm) ! Chromium can decompile it, but we can also decompile binary WASM programs with the [WebAssembly Binary Toolkit (wabt)](https://github.com/WebAssembly/wabt).
 
-This gives us a file in `WebAssembly Text Format` (see docs [here](https://webassembly.org/docs/text-format/)). A quick look reveals several interesting parts:
+This gives us [a file](index.wat) in `WebAssembly Text Format` (see docs [here](https://webassembly.org/docs/text-format/)). A quick look reveals several interesting parts:
 
 ```wat
 (module
