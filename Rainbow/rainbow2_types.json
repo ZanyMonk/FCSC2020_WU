@@ -1,0 +1,420 @@
+{
+    "data": {
+        "allCooks": {
+            "nodes": [
+                {
+                    "firstname": "Thibault",
+                    "lastname": "Royer",
+                    "speciality": "Raji Cuisine",
+                    "price": 12421
+                },
+                {
+                    "firstname": "Bernard",
+                    "lastname": "Bruneau",
+                    "speciality": "Chinese and Thai",
+                    "price": 14100
+                },
+                {
+                    "firstname": "Trycia",
+                    "lastname": "Barton",
+                    "speciality": "Fast food",
+                    "price": 920
+                },
+                {
+                    "firstname": "Jaleel",
+                    "lastname": "Gerlach",
+                    "speciality": "Tandoori dishes",
+                    "price": 24575
+                },
+                {
+                    "firstname": "Isaac",
+                    "lastname": "Collier",
+                    "speciality": "South Korean foods",
+                    "price": 8416
+                },
+                {
+                    "firstname": "Paula",
+                    "lastname": "Hessel",
+                    "speciality": "Pizza",
+                    "price": 74401
+                },
+                {
+                    "firstname": "Teagan",
+                    "lastname": "Kertzmann",
+                    "speciality": "Vegererian",
+                    "price": 12664
+                },
+                {
+                    "firstname": "Garfield",
+                    "lastname": "Goldner",
+                    "speciality": "Air and sun",
+                    "price": 944092
+                },
+                {
+                    "firstname": "Elisabeth",
+                    "lastname": "Windler",
+                    "speciality": "Vegetelian",
+                    "price": 310603
+                },
+                {
+                    "firstname": "Casey",
+                    "lastname": "Schmitt",
+                    "speciality": "Italian",
+                    "price": 96837
+                },
+                {
+                    "firstname": "Luciano",
+                    "lastname": "Smitham",
+                    "speciality": "Brittany specialities",
+                    "price": 1963
+                },
+                {
+                    "firstname": "Jace",
+                    "lastname": "Jakubowski",
+                    "speciality": "Sushi",
+                    "price": 20522
+                }
+            ]
+        },
+        "lol": {
+            "types": [
+                {
+                    "fields": [
+                        {
+                            "name": "query"
+                        },
+                        {
+                            "name": "nodeId"
+                        },
+                        {
+                            "name": "node"
+                        },
+                        {
+                            "name": "allCooks"
+                        },
+                        {
+                            "name": "allFlagNotTheSameTableNames"
+                        },
+                        {
+                            "name": "cookById"
+                        },
+                        {
+                            "name": "flagNotTheSameTableNameById"
+                        },
+                        {
+                            "name": "cook"
+                        },
+                        {
+                            "name": "flagNotTheSameTableName"
+                        }
+                    ],
+                    "name": "Query"
+                },
+                {
+                    "fields": [
+                        {
+                            "name": "nodeId"
+                        }
+                    ],
+                    "name": "Node"
+                },
+                {
+                    "fields": null,
+                    "name": "ID"
+                },
+                {
+                    "fields": null,
+                    "name": "Int"
+                },
+                {
+                    "fields": null,
+                    "name": "Cursor"
+                },
+                {
+                    "fields": null,
+                    "name": "CooksOrderBy"
+                },
+                {
+                    "fields": null,
+                    "name": "CookCondition"
+                },
+                {
+                    "fields": null,
+                    "name": "String"
+                },
+                {
+                    "fields": null,
+                    "name": "CookFilter"
+                },
+                {
+                    "fields": null,
+                    "name": "IntFilter"
+                },
+                {
+                    "fields": null,
+                    "name": "Boolean"
+                },
+                {
+                    "fields": null,
+                    "name": "StringFilter"
+                },
+                {
+                    "fields": [
+                        {
+                            "name": "nodes"
+                        },
+                        {
+                            "name": "edges"
+                        },
+                        {
+                            "name": "pageInfo"
+                        },
+                        {
+                            "name": "totalCount"
+                        }
+                    ],
+                    "name": "CooksConnection"
+                },
+                {
+                    "fields": [
+                        {
+                            "name": "nodeId"
+                        },
+                        {
+                            "name": "id"
+                        },
+                        {
+                            "name": "firstname"
+                        },
+                        {
+                            "name": "lastname"
+                        },
+                        {
+                            "name": "speciality"
+                        },
+                        {
+                            "name": "price"
+                        }
+                    ],
+                    "name": "Cook"
+                },
+                {
+                    "fields": [
+                        {
+                            "name": "cursor"
+                        },
+                        {
+                            "name": "node"
+                        }
+                    ],
+                    "name": "CooksEdge"
+                },
+                {
+                    "fields": [
+                        {
+                            "name": "hasNextPage"
+                        },
+                        {
+                            "name": "hasPreviousPage"
+                        },
+                        {
+                            "name": "startCursor"
+                        },
+                        {
+                            "name": "endCursor"
+                        }
+                    ],
+                    "name": "PageInfo"
+                },
+                {
+                    "fields": null,
+                    "name": "FlagNotTheSameTableNamesOrderBy"
+                },
+                {
+                    "fields": null,
+                    "name": "FlagNotTheSameTableNameCondition"
+                },
+                {
+                    "fields": null,
+                    "name": "FlagNotTheSameTableNameFilter"
+                },
+                {
+                    "fields": [
+                        {
+                            "name": "nodes"
+                        },
+                        {
+                            "name": "edges"
+                        },
+                        {
+                            "name": "pageInfo"
+                        },
+                        {
+                            "name": "totalCount"
+                        }
+                    ],
+                    "name": "FlagNotTheSameTableNamesConnection"
+                },
+                {
+                    "fields": [
+                        {
+                            "name": "nodeId"
+                        },
+                        {
+                            "name": "id"
+                        },
+                        {
+                            "name": "flagNotTheSameFieldName"
+                        }
+                    ],
+                    "name": "FlagNotTheSameTableName"
+                },
+                {
+                    "fields": [
+                        {
+                            "name": "cursor"
+                        },
+                        {
+                            "name": "node"
+                        }
+                    ],
+                    "name": "FlagNotTheSameTableNamesEdge"
+                },
+                {
+                    "fields": [
+                        {
+                            "name": "types"
+                        },
+                        {
+                            "name": "queryType"
+                        },
+                        {
+                            "name": "mutationType"
+                        },
+                        {
+                            "name": "subscriptionType"
+                        },
+                        {
+                            "name": "directives"
+                        }
+                    ],
+                    "name": "__Schema"
+                },
+                {
+                    "fields": [
+                        {
+                            "name": "kind"
+                        },
+                        {
+                            "name": "name"
+                        },
+                        {
+                            "name": "description"
+                        },
+                        {
+                            "name": "fields"
+                        },
+                        {
+                            "name": "interfaces"
+                        },
+                        {
+                            "name": "possibleTypes"
+                        },
+                        {
+                            "name": "enumValues"
+                        },
+                        {
+                            "name": "inputFields"
+                        },
+                        {
+                            "name": "ofType"
+                        }
+                    ],
+                    "name": "__Type"
+                },
+                {
+                    "fields": null,
+                    "name": "__TypeKind"
+                },
+                {
+                    "fields": [
+                        {
+                            "name": "name"
+                        },
+                        {
+                            "name": "description"
+                        },
+                        {
+                            "name": "args"
+                        },
+                        {
+                            "name": "type"
+                        },
+                        {
+                            "name": "isDeprecated"
+                        },
+                        {
+                            "name": "deprecationReason"
+                        }
+                    ],
+                    "name": "__Field"
+                },
+                {
+                    "fields": [
+                        {
+                            "name": "name"
+                        },
+                        {
+                            "name": "description"
+                        },
+                        {
+                            "name": "type"
+                        },
+                        {
+                            "name": "defaultValue"
+                        }
+                    ],
+                    "name": "__InputValue"
+                },
+                {
+                    "fields": [
+                        {
+                            "name": "name"
+                        },
+                        {
+                            "name": "description"
+                        },
+                        {
+                            "name": "isDeprecated"
+                        },
+                        {
+                            "name": "deprecationReason"
+                        }
+                    ],
+                    "name": "__EnumValue"
+                },
+                {
+                    "fields": [
+                        {
+                            "name": "name"
+                        },
+                        {
+                            "name": "description"
+                        },
+                        {
+                            "name": "locations"
+                        },
+                        {
+                            "name": "args"
+                        }
+                    ],
+                    "name": "__Directive"
+                },
+                {
+                    "fields": null,
+                    "name": "__DirectiveLocation"
+                }
+            ]
+        }
+    }
+}
